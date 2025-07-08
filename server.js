@@ -42,6 +42,8 @@ if (process.env.NODE_ENV === "production") {
 const authRoutes = require("./backend/routes/auth");
 const profileRoutes = require("./backend/routes/profiles");
 const fileRoutes = require("./backend/routes/files");
+const surveyRoutes = require("./backend/routes/surveys");
+const classRoutes = require("./backend/routes/classes");
 
 // Routes
 app.get("/api/health", (req, res) => {
@@ -60,7 +62,11 @@ app.use("/api/profiles", profileRoutes);
 // File routes
 app.use("/api/files", fileRoutes);
 
-// TODO: Add survey routes
+// Survey routes
+app.use("/api/surveys", surveyRoutes);
+
+// Class routes
+app.use("/api/classes", classRoutes);
 
 // Catch-all handler for React Router (in production)
 if (process.env.NODE_ENV === "production") {

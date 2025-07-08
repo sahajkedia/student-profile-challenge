@@ -53,19 +53,19 @@ A web-based application that enables educators to track student goals, interests
 
 #### 1.5 Student Profile Management
 
-- [ ] Create student profile creation form
+- [x] Create student profile creation form
 - [x] Implement profile CRUD operations (Create, Read, Update, Delete)
-- [ ] Build profile display/edit interface
-- [ ] Add form validation for required fields
-- [ ] Create class management (teacher can create classes, invite students)
+- [x] Build profile display/edit interface
+- [x] Add form validation for required fields
+- [x] Create class management (teacher can create classes, invite students)
 
 #### 1.6 File Upload System
 
-- [ ] Implement file upload with Multer middleware
-- [ ] Store files as BLOB in MariaDB
-- [ ] Add file type validation (PDF, DOCX, DOC)
-- [ ] Implement file size restrictions (10MB limit)
-- [ ] Create file download functionality
+- [x] Implement file upload with Multer middleware
+- [x] Store files as BLOB in MariaDB
+- [x] Add file type validation (PDF, DOCX, DOC)
+- [x] Implement file size restrictions (10MB limit)
+- [x] Create file download functionality
 
 ### Phase 2: Survey System (Data Collection)
 
@@ -73,7 +73,7 @@ A web-based application that enables educators to track student goals, interests
 
 #### 2.1 Survey Builder
 
-- [ ] Create survey creation interface
+- [x] Create survey creation interface
 - [ ] Implement basic question types (multiple choice, text, rating)
 - [ ] Add survey metadata (title, description, open/close dates)
 - [ ] Build survey preview functionality
